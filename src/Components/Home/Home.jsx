@@ -1,3 +1,4 @@
+
 import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import Education from "../Education/Education";
@@ -6,14 +7,18 @@ import Skills from "../Skills/Skills";
 
 
 const Home = () => {
+
+  
     return (
-        <div>
+        <div className="px-6 md:px-8 lg:px-0">
+         
+
             <Banner></Banner>
-           
+
             <Skills></Skills>
             <Projects></Projects>
             <Education></Education>
-            <Contact ></Contact>
+            <Contact  ></Contact>
         </div>
     );
 };

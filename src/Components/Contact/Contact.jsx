@@ -15,7 +15,7 @@ const Contact = () => {
           });
       };
     return (
-        <div className="my-10 max-w-6xl mx-auto" >
+        <div className="mb-14 max-w-6xl mx-auto" >
             <h1 className='text-center font-bold font-serif text-4xl'>Contact Me</h1>
             <p className='text-center text-slate-600 '>Feel free to reach out to me for any questions or opportunities!</p>
             <form ref={form} onSubmit={sendEmail} className='form-control my-8'>

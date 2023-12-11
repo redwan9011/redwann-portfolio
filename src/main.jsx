@@ -9,6 +9,9 @@ import {
 import LayOuts from './LayOuts/LayOuts';
 import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
+import Skills from './Components/Skills/Skills';
+import Education from './Components/Education/Education';
+import Projects from './Components/Projects/Projects';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +24,18 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element:<Contact></Contact>
+      },
+      {
+        path: "/skills",
+        element: <Skills></Skills>
+      },
+      {
+        path: "/education",
+        element: <Education></Education>
+      },
+      {
+        path: "/projects",
+        element: <Projects></Projects>
       },
     ]
   },
