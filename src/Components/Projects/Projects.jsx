@@ -19,27 +19,28 @@ const Projects = () => {
                  
                 </div>
             </div>
+
+            <div className="card card-compact  bg-base-100 shadow-lg hover:-translate-y-1  hover:duration-200 hover:delay-75 hover:ease-in hover:shadow-2xl">
+                <figure><img src='https://i.ibb.co/84tNw8s/Capturrrre.png' className="md:h-36 lg:h-44  w-full" alt="project image" /></figure>
+                <div className="card-body">
+                    <h2 className="card-title">Project 2</h2>
+
+                    <div className="grid lg:grid-cols-2 gap-2 lg:gap-5">
+                   <a target="_" href="https://github.com/redwan9011/student-assignment-client.git" className="btn btn-outline ">Github Code</a>
+                    <a target="_" href="https://frabjous-tanuki-7553ea.netlify.app" className="btn btn-outline "> Live Demo</a>
+                   </div>
+                   
+                </div>
+            </div>
             <div className="card card-compact  bg-base-100 shadow-lg hover:-translate-y-1  hover:duration-200 hover:delay-75 hover:ease-in hover:shadow-2xl">
                 <figure><img src='https://i.ibb.co/vVZ5h8c/brandshope.png' className="md:h-36 lg:h-44 w-full" alt="project image" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">Project 2</h2>
+                    <h2 className="card-title">Project 3</h2>
                     <div className="grid lg:grid-cols-2 gap-2 lg:gap-5">
                    <a target="_" href="https://github.com/redwan9011/redwan-brandshop-client.git" className="btn btn-outline ">Github Code</a>
                     <a target="_" href="https://redwan-brandshop.web.app/" className="btn btn-outline "> Live Demo</a>
                    </div>
                   
-                </div>
-            </div>
-            <div className="card card-compact  bg-base-100 shadow-lg hover:-translate-y-1  hover:duration-200 hover:delay-75 hover:ease-in hover:shadow-2xl">
-                <figure><img src='https://i.ibb.co/xhm5HHt/eveeeente.png' className="md:h-36 lg:h-44  w-full" alt="project image" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">Project 3</h2>
-
-                    <div className="grid lg:grid-cols-2 gap-2 lg:gap-5">
-                   <a target="_" href="https://github.com/redwan9011/redwan-event-management.git" className="btn btn-outline ">Github Code</a>
-                    <a target="_" href="https://redwan-event-management.web.app/" className="btn btn-outline "> Live Demo</a>
-                   </div>
-                   
                 </div>
             </div>
 

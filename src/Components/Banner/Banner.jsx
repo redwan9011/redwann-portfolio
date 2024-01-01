@@ -1,6 +1,6 @@
 import image from '../../assets/1702274669682__3333_-removebg-preview (1).png'
-import { FaLinkedin,FaGithub } from "react-icons/fa";
-import pdf from '../../assets/questions (1).pdf'
+import { FaLinkedin,FaGithub, FaFacebook } from "react-icons/fa";
+import pdf from '../../assets/Resume.pdf'
 const Banner = () => {
     return (
   <div className=''>
@@ -10,8 +10,9 @@ const Banner = () => {
                 <div className=' flex flex-col   gap-3 items-center   '>
                 <img src={image} alt="redwan image" className='rounded-full w-36 md:w-52 lg:w-full' />
                <div className='flex gap-3 '>
-               <a className='text-3xl' href=""><FaLinkedin  /></a>
-                <a  className='text-3xl' href=""> <FaGithub /></a>
+               <a className='text-3xl'target='_' href="https://www.facebook.com/rayhan.islam.8"><FaFacebook  /></a>
+               <a className='text-3xl' target='_' href="https://www.linkedin.com/in/md-redwan-islam-2403b32a4"><FaLinkedin  /></a>
+                <a  className='text-3xl' target='_' href="https://github.com/redwan9011"> <FaGithub /></a>
                </div>
                 </div>
                 <div className='flex-1 text-center'>
