@@ -1,6 +1,6 @@
 // import image from '../../assets/1702274669682__3333_-removebg-preview (1).png'
 import { FaLinkedin,FaGithub, FaFacebook } from "react-icons/fa";
-import pdf from '../../assets/Resume.pdf'
+import pdf from '../../assets/RedwanResumee.pdf'
 const Banner = () => {
     return (
   <div className=''>
